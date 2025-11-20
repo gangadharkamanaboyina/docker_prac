@@ -1,3 +1,3 @@
 FROM almalinux:9
-RUN nginx
+FROM nginx
 CMD [ "nginx", "-g", "daemon off;" ]
